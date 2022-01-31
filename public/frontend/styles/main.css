@@ -1,0 +1,720 @@
+body {
+  background-color: #E4E6EB;
+  font-family: 'Assistant', sans-serif;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  height: 70px;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+  border-radius: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #018992;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #018992 !important;
+}
+
+.btn-login {
+  background-color: #018992;
+  color: #fff;
+}
+
+.btn-login:hover {
+  background-color: #63d6df;
+  color: #fff;
+}
+
+header {
+  padding: 180px 0 165px;
+  margin-top: -70px;
+  background-image: url(../images/Header.jpg);
+  background-size: cover;
+}
+
+header h1, header p {
+  color: #250792;
+}
+
+header h1 {
+  font-family: 'Playfair Display',serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+header p {
+  font-size: 22px;
+  color: #000;
+  font-weight: bold;
+}
+
+header .btn-get-started {
+  background-color: #250792;
+  color: #fff;
+  font-family: serif;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+header .btn-get-started:hover {
+  background-color: #fff;
+  color: #018992;
+}
+
+.section-stats {
+  margin-top: -50px;
+}
+
+.section-stats .stats-detail {
+  padding-top: 15px;
+  background-color: #fff;
+  padding-left: 25px;
+}
+
+.section-stats h2 {
+  font-size: 26px;
+}
+
+.section-stats p {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.section-popular {
+  min-height: 540px;
+  background-color: #66B6C0;
+  margin-top: -50px;
+  margin-bottom: -230px;
+}
+
+.section-popular .section-popular-heading {
+  margin-top: 110px;
+}
+
+.section-popular .section-popular-heading h2, .section-popular .section-popular-heading p {
+  color: #fff;
+}
+
+.section-popular .section-popular-heading h2 {
+  font-family: 'Playfair Display',serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.section-popular .section-popular-heading p {
+  font-size: 20px;
+}
+
+.section-popular-content .section-popular-travel .card-travel {
+  min-height: 380px;
+  background-color: #5e5858;
+  color: #fff;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.section-popular-content .section-popular-travel .travel-country {
+  font-size: 18px;
+  color: #fff;
+}
+
+.section-popular-content .section-popular-travel .travel-location {
+  font-size: 26px;
+  color: #fff;
+}
+
+.section-popular-content .section-popular-travel .travel-button .btn-travel-details {
+  background-color: #250792;
+  color: #fff;
+}
+
+.section-popular-content .section-popular-travel .travel-button .btn-travel-details:hover {
+  background-color: #350fbb;
+  color: #fff;
+}
+
+.section-networks {
+  margin-top: -180px;
+  padding-top: 230px;
+  padding-bottom: 70px;
+  background-color: #fff;
+}
+
+.section-networks h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  color: #018992;
+  font-size: 40px;
+}
+
+.section-networks p {
+  font-size: 18px;
+}
+
+.section-networks img {
+  max-width: 100%;
+}
+
+.section-testimonial-heading {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #fff), to(#B4D4D6));
+  background: linear-gradient(#fff 20%, #B4D4D6 100%);
+  padding-top: 50px;
+  padding-bottom: 100px;
+  min-height: 500px;
+}
+
+.section-testimonial-heading h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.section-testimonial-heading p {
+  font-size: 18px;
+}
+
+.section-testimonial-content {
+  margin-top: -300px;
+  margin-bottom: 10px;
+  background-color: linear-gradient(#B4D4D6, #fff);
+}
+
+.section-testimonial-content .card-testimonial {
+  padding: 40px 20px 10px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.section-testimonial-content .card-testimonial .testimonial-content {
+  min-height: 350px;
+}
+
+.section-testimonial-content .card-testimonial h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.section-testimonial-content .card-testimonial .testimonial {
+  font-weight: 200;
+  font-size: 26px;
+  color: #9faeaf;
+}
+
+.section-testimonial-content .card-testimonial .trip-to {
+  font-weight: normal;
+  font-size: 22px;
+  color: #9faeaf;
+}
+
+.section-testimonial-content .card-testimonial hr {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.section-testimonial-content .btn-get-started {
+  background-color: #250792;
+  color: #fff;
+  font-family: serif;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.section-testimonial-content .btn-get-started:hover {
+  color: #fff;
+  background-color: #018992;
+}
+
+.section-testimonial-content .btn-get-started a {
+  font-family: 'Assistant';
+}
+
+.section-testimonial-content .btn-need-help {
+  color: #018992;
+  background-color: #fff;
+  font-family: serif;
+  font-weight: normal;
+  border-radius: 10px;
+}
+
+.section-testimonial-content .btn-need-help:hover {
+  background-color: #fff;
+  color: #11cbd8;
+}
+
+footer {
+  background: #fff;
+}
+
+.section-footer {
+  background: #fff;
+}
+
+.section-footer a {
+  color: #018992;
+}
+
+.section-details-header {
+  min-height: 250px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#B4D4D6));
+  background: linear-gradient(#B4D4D6);
+  margin-top: -80px;
+}
+
+.section-details-content {
+  margin-top: -100px;
+  min-height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(40%, #B4D4D6), color-stop(60%, #fff));
+  background: linear-gradient(#B4D4D6 40%, #fff 60%);
+}
+
+.section-details-content .breadcrumb {
+  margin-bottom: 20px;
+  background-color: transparent;
+  padding: 0;
+}
+
+.section-details-content .breadcrumb-item {
+  font-weight: lighter;
+  font-weight: bold;
+}
+
+.section-details-content .breadcrumb-item:active {
+  font-weight: bold;
+  color: #018992;
+}
+
+.card-details {
+  padding: 30px;
+  border-radius: 11px;
+  background-color: #fff;
+}
+
+.card-details h1 {
+  font-size: 26px;
+}
+
+.card-details h2 {
+  font-size: 20px;
+}
+
+.card-details p {
+  font-size: 18px;
+  color: #9faeaf;
+}
+
+.card-details h3 {
+  font-weight: 600;
+  font-size: 14px;
+  color: #018992;
+}
+
+.trip-informations th {
+  font-weight: 300;
+  font-size: 18px;
+  color: #018992;
+}
+
+.trip-informations td {
+  font-weight: 300;
+  font-size: 18px;
+  color: #b1b1b1;
+}
+
+.trip-informations .text-blue {
+  color: #018992;
+  font-weight: bold;
+}
+
+.trip-informations .text-grey {
+  color: #b1b1b1;
+  font-weight: bold;
+}
+
+.payments-instructions {
+  font-weight: 300;
+  font-size: 14px;
+  color: #b1b1b1;
+}
+
+.bank .bankitem h3 {
+  font-size: 16px;
+  color: #018992;
+  margin: 0;
+}
+
+.bank .bankitem p {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.bank .bankitem .descriptions {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.bank .bankitem p {
+  font-weight: normal;
+  font-size: 14px;
+  color: #66B6C0;
+}
+
+.bank .bank-image {
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+
+.disclaimer {
+  font-weight: 300;
+  font-size: 14px;
+  color: #b1b1b1;
+}
+
+.gj-datepicker .datepciker {
+  border-right: 0;
+}
+
+.gj-datepicker .input-group-append .btn {
+  padding-right: 30px;
+}
+
+.btn-add-now {
+  background-color: #018992;
+  color: #fff;
+}
+
+.btn-add-now:hover {
+  background-color: #66B6C0;
+  color: #fff;
+}
+
+.card-right {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: 0;
+}
+
+.features {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.features h3 {
+  font-size: 18px;
+  color: black;
+  margin-bottom: 0;
+}
+
+.features p {
+  margin-bottom: 0;
+  font-size: 10px;
+}
+
+.features .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.features .description p {
+  font-size: 15px;
+}
+
+.features .featured-image {
+  width: 40px;
+  height: 40px;
+  float: left;
+}
+
+.gallery .xzoom-container {
+  display: block;
+}
+
+.gallery .xzoom {
+  width: 98%;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-bottom: 10px;
+}
+
+.gallery .xactive {
+  border: 4px solid #11cbd8;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.members .member-image {
+  width: 40px;
+  height: 40px;
+}
+
+.join-container {
+  margin-top: -20px;
+  border-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.join-container .btn-join-now {
+  background-color: #018992;
+  color: #fff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.join-container .btn-join-now:hover {
+  background-color: #0ccfdd;
+  color: #fff;
+}
+
+.join-container .btn-cancel-request {
+  background-color: #9faeaf;
+  color: #fff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.join-container .btn-cancel-request:hover {
+  background-color: #fff;
+  color: #9faeaf;
+}
+
+.section-success {
+  height: 90vh;
+  margin-top: -70px;
+  min-height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(40%, #fff), color-stop(60%, #E8FFFA));
+  background: linear-gradient(#fff 40%, #E8FFFA 60%);
+}
+
+.section-success h1 {
+  font-weight: bold;
+  font-size: 26px;
+  color: #4D4D6B;
+}
+
+.section-success p {
+  font-weight: 600;
+  font-size: 26px;
+  color: #b1b1b1;
+}
+
+.section-success .btn-home-page {
+  border-radius: 4px;
+  background-color: #528387;
+  color: #fff;
+}
+
+.section-success .btn-home-page:hover {
+  background-color: #59cfda;
+  color: #fff;
+}
+
+/**
+INI STYLE UNTUK BAGIAN
+FORM LOGIN
+    REGISTER
+    FORGOT PASSWORD
+**/
+.background-form img {
+  height: auto;
+}
+
+.section-form {
+  margin: 0 20px 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section-form .form-login {
+  padding-top: 60px;
+  font-family: 'Assistant';
+  width: 60vh;
+}
+
+.section-form .form-login h1 {
+  font-size: 40px;
+  font-weight: bold;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, #fff), color-stop(20%, #E8FFFA));
+  background: linear-gradient(#fff 80%, #E8FFFA 20%);
+}
+
+.section-form h3 {
+  font-size: 30px;
+  padding-top: 44px;
+  font-weight: normal;
+}
+
+.section-form h4 {
+  font-size: 15px;
+  padding: 10px;
+}
+
+.card-lgn {
+  border-radius: 20px;
+  width: 50vh;
+  margin: 0 30px 30px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card-lgn .card-form {
+  background: #66B6C0;
+  border-radius: 20px;
+  padding: 30px;
+  min-width: 40vh;
+}
+
+.input-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 15px;
+  background: #0F3EEA;
+  color: white;
+  min-width: 30px;
+  text-align: center;
+  border-radius: 10px 0 0 10px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border-radius: 0 10px 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.input-field:focus {
+  border: 2px solid #0cbcc9;
+}
+
+/* Atur style untuk submit button */
+.btn-lgn {
+  background-color: #0F3EEA;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  height: 100%;
+  float: right;
+  border-radius: 20px;
+  font-weight: normal;
+}
+
+.btn-register {
+  background-color: #0F3EEA;
+  color: white;
+}
+
+.btn-register:hover, .btn-lgn:hover {
+  opacity: 3;
+  background-color: #5778f0;
+}
+
+.forgot-text {
+  margin-top: 20px;
+}
+
+.forgot-text h3 {
+  font-size: 14px;
+  color: #585858;
+  padding-top: 8px;
+}
+
+.forgot-text h3 a {
+  color: #000;
+  font-weight: 200;
+}
+
+@media (max-width: 992px) {
+  .section-form {
+    max-width: 100%;
+    margin-left: 0;
+    padding-bottom: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .background-form {
+    justify-items: center;
+    background-color: #fff;
+    position: fixed;
+    max-height: 100%;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+  }
+  .background-form img {
+    max-width: 400px;
+    display: none;
+    background-size: cover;
+  }
+  .form-login {
+    max-width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 0;
+    max-height: 100%;
+    padding-bottom: 70%;
+  }
+  .card {
+    max-width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .card-form, .form-page {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: end;
+  }
+  .input-container {
+    max-width: 100%;
+  }
+  .forgot-text, h3, h4 {
+    margin: 0;
+    padding: 0;
+  }
+  .btn-lgn {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

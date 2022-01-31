@@ -1,0 +1,6 @@
+{
+    "require-dev": {
+        "filp/whoops": "^2.14",
+        "laravel/ui": "^2.5"
+    }
+}
