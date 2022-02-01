@@ -141,8 +141,7 @@
                 </form>
                 <h3 class="mt-2 mb-0">Note</h3>
                 <p class="disclaimer mb-0">
-                  You are only able to invite member that has registered in
-                  Nomads.
+                  You are only able to invite member that has registered in Cometra.
                 </p>
               </div>
             </div>
