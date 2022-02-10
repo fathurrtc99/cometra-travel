@@ -5,18 +5,18 @@
 
 
 <main class="section d-flex bg-white">
-    <div class="background-form mb-4 mt-4">
-        <img src="{{ url('frontend/images/bg-form.png')}}" alt="" class="background-form">
+    <div class="background-form">
+        <img src="{{ url('frontend/images/bg-form.png')}}" alt="" class="background-form sticky">
     </div>
 
-        <div class="section-form pt--4">
+        <div class="section-form">
             <div class="form-login pl-2">
                 <h1>{{ __('START YOUR') }}<br> {{ __('JOURNEY')}}</h1>
                 <h4 class="text-muted text-center">{{ __('Create New Account')}}</h4>
               <div class="card card-lgn border-light bg-white">
                 <div class="card-body card-body-form card-form">
 
-                    <form action="{{ route('register') }}" method="POST" class="form-page" style="max-width:600px;margin:auto">
+                    <form action="{{ route('register') }}" method="POST" class="form-page" style="max-width:100%;margin:auto">
                         @csrf
                       <div class="input-container">
                         <i class="fa fa-user icon"></i>
@@ -50,9 +50,11 @@
                                 <strong>{{ $message }}</strong>
                             </span>
                         @enderror
-
                       </div>
 
+                      <label id="password">
+                        <h4 class="text-muted text-left m-0 p-0"> {{ __('*Password have min.8 character')}}</h4>
+                      </label>
                       <div class="input-container">
                         <i class="fa fa-key icon"></i>
                         <input class="input-field @error('password') is-invalid @enderror" type="password" placeholder="Password" name="password" required autocomplete="new-password">
@@ -62,15 +64,11 @@
                             <strong>{{ $message }}</strong>
                         </span>
                         @enderror
-
                       </div>
 
                       <div class="input-container">
                         <i class="fa fa-key icon"></i>
                         <input id="password-confirm" class="input-field" name="password_confirmation" type="password" placeholder="Confirm Password" name="password_confirmation" required autocomplete="new-password">
-
-
-
                       </div>
 
                       <label>

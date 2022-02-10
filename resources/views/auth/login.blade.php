@@ -33,15 +33,12 @@
                       <div class="input-container">
                         <i class="fa fa-key icon"></i>
                         <input id="password" class="input-field @error('password') is-invalid @enderror" type="password" placeholder="Password" name="password" required autocomplete="current-password">
-
-                        @error('password')
+                         @error('password')
                         <span class="invalid-feedback" role="alert">
                             <strong>{{ $message }}</strong>
                         </span>
-                    @enderror
-                      </div>
-
-
+                         @enderror
+                      </div> 
                       <label>
                             <input class="fw-bold mt-2"  type="checkbox" checked="checked" name="remember" {{ old('remember') ? 'checked' : '' }}>
                             {{ __('Remember Me') }}
