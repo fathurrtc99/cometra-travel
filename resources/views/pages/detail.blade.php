@@ -1,5 +1,9 @@
 @extends('layouts.app')
-@section('title.Detail Travel')
+
+
+@section('title')
+    Detail Paket Travel
+@endsection
 
 @section('content')
 <main>

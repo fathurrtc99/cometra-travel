@@ -1,5 +1,7 @@
 @extends('layouts.app-form')
-
+@section('title')
+  Forgot Password
+@endsection
 @section('content')
 
 <main class="section d-flex bg-white">

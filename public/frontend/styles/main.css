@@ -1,5 +1,5 @@
 body {
-  background-color: #E4E6EB;
+  background-color: #f3f3f3;
   font-family: 'Assistant', sans-serif;
 }
 
@@ -116,7 +116,7 @@ header .btn-get-started:hover {
 
 .section-popular-content .section-popular-travel .card-travel {
   min-height: 380px;
-  background-color: #5e5858;
+  background-color: #05646b;
   color: #fff;
   padding: 30px;
   background-size: cover;
@@ -588,7 +588,7 @@ FORM LOGIN
   margin-bottom: 15px;
 }
 
-.icon {
+.input-container .icon {
   padding: 15px;
   background: #0F3EEA;
   color: white;
@@ -597,20 +597,40 @@ FORM LOGIN
   border-radius: 10px 0 0 10px;
 }
 
-.input-field {
+.input-container .password-field #toggler {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.input-container .icon-pswrd {
+  padding: 15px 1px 15px 3px;
+  margin: auto;
+  background: transparent;
+  color: #080808;
+  min-width: 20px;
+  text-align: center;
+  border-radius: 0 10px 10px 0;
+}
+
+.input-container .input-field {
   width: 100%;
   padding: 10px;
   outline: none;
-  border-radius: 0 10px 10px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  letter-spacing: 1px;
+  border-radius: 0 10px 10px 0;
 }
 
-.input-field:focus {
+.input-container .input-field:focus {
   border: 2px solid #0cbcc9;
 }
 

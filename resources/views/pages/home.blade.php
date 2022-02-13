@@ -2,7 +2,7 @@
 
 
 @section('title')
-    ComeTra
+    Cometra
 @endsection
 
 @section('content')

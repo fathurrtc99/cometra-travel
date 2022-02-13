@@ -1,5 +1,5 @@
 body {
-  background-color: #E4E6EB;
+  background-color: #f3f3f3;
   font-family: 'Assistant', sans-serif;
 }
 
@@ -132,7 +132,7 @@ p {
   .section-popular-travel{
     .card-travel{
       min-height: 380px;
-      background-color: rgb(94, 88, 88);
+      background-color: #05646b;
       color: #fff;
       padding: 30px;
       background-size: cover;
@@ -641,8 +641,6 @@ FORM LOGIN
     width: 100%;
     margin-bottom: 15px;
 
-  }
-
   .icon {
     padding: 15px;
     background: #0F3EEA;
@@ -652,20 +650,39 @@ FORM LOGIN
     border-radius: 10px 0 0 10px ;
   }
 
-  .input-field {
+
+ .password-field #toggler{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+
+ .icon-pswrd{
+   padding: 15px 1px 15px 3px;
+   margin: auto;
+   background: transparent;
+   color: #080808;
+   min-width: 20px;
+   text-align: center;
+   border-radius: 0 10px 10px 0;
+ }
+
+ .input-field {
     width: 100%;
     padding: 10px;
     outline: none;
-    border-radius: 0 10px 10px 0;
-
     display: flex;
     align-items: center;
+    letter-spacing: 1px;
+    border-radius: 0 10px 10px 0;
   }
 
   .input-field:focus {
     border: 2px solid #0cbcc9;
   }
-
+}
   /* Atur style untuk submit button */
   .btn-lgn {
     background-color: #0F3EEA;

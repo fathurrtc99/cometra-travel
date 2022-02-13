@@ -12,6 +12,8 @@
   <body>
 
     @yield('content')
-
+    @stack('prepend-script')
+    @include('includes.form-script')
+    @stack('addon-script')
   </body>
 </html>

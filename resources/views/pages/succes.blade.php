@@ -1,5 +1,7 @@
 @extends('layouts.succes')
-@section('title.Checkout Succes')
+@section('title')
+    Checkout Success!
+@endsection
 
 @section('content')
 <main>

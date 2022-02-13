@@ -1,5 +1,9 @@
 @extends('layouts.checkout')
-@section('title.Checkout')
+
+
+@section('title')
+    Checkout
+@endsection
 
 @section('content')
 <main>
