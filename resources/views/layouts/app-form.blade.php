@@ -10,7 +10,6 @@
     @stack('addon-style')
   </head>
   <body>
-
     @yield('content')
     @stack('prepend-script')
     @include('includes.form-script')
